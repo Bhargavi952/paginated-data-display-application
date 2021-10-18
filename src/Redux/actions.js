@@ -24,12 +24,12 @@ const fetchDetailsFailure = (error) => {
   };
 };
 
-// fetching all the user deatils
-const fetchUserDetails = () => async (dispatch) => {
+// fetching  the user deatils
+const fetchUserDetails = (page) => async (dispatch) => {
   dispatch(fetchDetailsRequest());
   try {
     let response = await axios.get(
-      "https://json-server-mocker-data.herokuapp.com/Userdetails"
+      `https://json-server-mocker-data.herokuapp.com/Userdetails?_page=${page}&_limit=10`
     );
     // console.log(response.data);
     dispatch(fetchDetailsSuccess(response.data));
