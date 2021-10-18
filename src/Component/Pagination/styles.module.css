@@ -1,0 +1,23 @@
+.pageitem {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagebtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.pagebtn:hover {
+    background-color:#9E9C9C;
+}
+.pagebtn:focus{
+    background: #11bf71;
+}
