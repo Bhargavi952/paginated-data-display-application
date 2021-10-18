@@ -2,3 +2,9 @@ h1{
     text-align: center;
     text-shadow: 3px 3px #11bf71;
 }
+.loader{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
