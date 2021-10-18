@@ -46,4 +46,14 @@ Start the server
 
 ![2021-10-18-23-04-03](https://user-images.githubusercontent.com/77036158/137779896-fd4f6e4a-d490-45b5-8162-cf2e3d780a98.png)
 
+### Material UI Pagination
+ 
+ - Desktop view
+![2021-10-18-23-48-34](https://user-images.githubusercontent.com/77036158/137786269-0b8f35a9-ff24-4979-bd44-007ed71297e1.png)
+
+- Mobile view
+
+![2021-10-18-23-49-36](https://user-images.githubusercontent.com/77036158/137786263-237012bb-a117-4d13-a8b0-54b1c254abeb.png)
+
+
 
