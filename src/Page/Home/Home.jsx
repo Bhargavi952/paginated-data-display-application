@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import DetailsCard from "../../Component/DetailsCard/DetailsCard";
+import NavBar from "../../Component/NavBar/NavBar";
 import Pagination from "../../Component/Pagination/Pagination";
 import fetchUserDetails from "../../Redux/actions";
-import styles from './styles.module.css'
+import styles from "./styles.module.css";
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -15,7 +16,7 @@ const Home = () => {
   useEffect(() => {
     dispatch(fetchUserDetails());
   }, []);
-  // console.log(data.userDetailsAData)
+ 
 
   // Get current userDetails
   const indexOfLastUserDetail = currentPage * userDetailsPerPage;
@@ -31,6 +32,8 @@ const Home = () => {
 
   return (
     <div>
+      <NavBar />
+      <h1>User Details</h1>
       <DetailsCard userDeatials={currentUserDeatils} />
       <Pagination
         userDetailsPerPage={userDetailsPerPage}

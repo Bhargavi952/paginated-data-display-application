@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./styles.module.css";
+import "./styles.css";
 
 const DetailsCard = ({ userDeatials }) => {
   //   console.log(userDeatials);
   return (
-    <div className={styles.card}>
+    <div className="card-container">
       {userDeatials?.map(({ id, email, gender, name }) => {
         return (
-          <div className={styles.cardcontainer} key={id}>
+          <div className="card-inner-container" key={id}>
             <h3>{name}</h3>
             <p>{email}</p>
             <p>{gender}</p>

@@ -1,13 +1,13 @@
-.pageitem {
+.page-item {
     display: flex;
     flex-direction: row;
     gap: 4px;
     align-items: center;
     justify-content: center;
-    margin:3rem 0;
+    margin: 3rem 0;
 }
 
-.pagebtn {
+.page-btn {
     border: none;
     outline: none;
     background-color: transparent;
@@ -16,9 +16,11 @@
     border-radius: 50%;
 }
 
-.pagebtn:hover {
-    background-color:#9E9C9C;
+.page-btn:hover {
+    background-color: #000;
+    color: #fff;
 }
-.pagebtn:focus{
+
+.page-btn:focus {
     background: #11bf71;
 }

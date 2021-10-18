@@ -24,6 +24,7 @@ const fetchDetailsFailure = (error) => {
   };
 };
 
+// fetching all the user deatils
 const fetchUserDetails = () => async (dispatch) => {
   dispatch(fetchDetailsRequest());
   try {
