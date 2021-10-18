@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
 
-
 const Pagination = ({ userDetailsPerPage, totaluserDetails, paginate }) => {
   const pageNumbers = [];
 
@@ -12,13 +11,11 @@ const Pagination = ({ userDetailsPerPage, totaluserDetails, paginate }) => {
   return (
     <div className={styles.pageitem}>
       {pageNumbers.map((number) => (
-        <>
-          <div key={number}>
-            <button onClick={() => paginate(number)} className={styles.pagebtn}>
-              {number}
-            </button>
-          </div>
-        </>
+        <div key={number}>
+          <button onClick={() => paginate(number)} className={styles.pagebtn}>
+            {number}
+          </button>
+        </div>
       ))}
     </div>
   );

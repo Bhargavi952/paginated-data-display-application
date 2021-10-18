@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import DetailsCard from "../../Component/DetailsCard/DetailsCard";
 import Pagination from "../../Component/Pagination/Pagination";
 import fetchUserDetails from "../../Redux/actions";
+import styles from './styles.module.css'
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -29,6 +31,7 @@ const Home = () => {
 
   return (
     <div>
+      <DetailsCard userDeatials={currentUserDeatils} />
       <Pagination
         userDetailsPerPage={userDetailsPerPage}
         totaluserDetails={
