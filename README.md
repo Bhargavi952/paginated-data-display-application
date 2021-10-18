@@ -25,7 +25,6 @@ Start the server
 
 -  React 
 -  Redux 
--  Material UI
 
 ## Deployed Link 
 
