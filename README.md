@@ -38,22 +38,16 @@ Start the server
  ## Snapshots
  
  - Desktop view
- ![2021-10-18-23-03-25](https://user-images.githubusercontent.com/77036158/137779900-c9e224aa-44b6-4d60-b8ea-063e0a1d0776.png)
 
+![2021-10-19-00-24-45](https://user-images.githubusercontent.com/77036158/137790258-15981acc-bc46-46c6-be29-7bcc525594d0.png)
 
 
 - Mobile view
 
-![2021-10-18-23-04-03](https://user-images.githubusercontent.com/77036158/137779896-fd4f6e4a-d490-45b5-8162-cf2e3d780a98.png)
+![2021-10-19-00-25-38](https://user-images.githubusercontent.com/77036158/137790252-6cf82e6f-b19b-4efc-aa55-7b5747ffdd14.png)
 
-### Material UI Pagination
- 
- - Desktop view
-![2021-10-18-23-48-34](https://user-images.githubusercontent.com/77036158/137786269-0b8f35a9-ff24-4979-bd44-007ed71297e1.png)
 
-- Mobile view
 
-![2021-10-18-23-49-36](https://user-images.githubusercontent.com/77036158/137786263-237012bb-a117-4d13-a8b0-54b1c254abeb.png)
 
 
 
