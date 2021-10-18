@@ -1,10 +1,17 @@
-h1{
+h1 {
     text-align: center;
     text-shadow: 3px 3px #11bf71;
 }
-.loader{
+
+.loader {
     display: flex;
     height: 300px;
     justify-content: center;
     align-items: center;
+}
+
+.pagination-Mui {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
 }

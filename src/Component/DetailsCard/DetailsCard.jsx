@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 const DetailsCard = ({ userDeatials }) => {
-  //   console.log(userDeatials);
+
   return (
     <div className="card-container">
       {userDeatials?.map(({ id, email, gender, name }) => {
